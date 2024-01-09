@@ -103,3 +103,4 @@ theme: minima
 deploy:
   type: git
   repo: https://github.com/berkmonder/berkmonder.github.io
+  branch: main
