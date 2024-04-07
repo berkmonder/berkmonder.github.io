@@ -1,0 +1,5 @@
+baseURL: https://berkmonder.github.io/
+languageCode: en-us
+title: Muhammed Berk Önder
+
+theme: ["PaperMod"]
