@@ -14,6 +14,13 @@
     <lastBuildDate>Sat, 09 Apr 2022 23:15:00 +0700</lastBuildDate>
     <atom:link href="https://berkmonder.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Blog 1</title>
+      <link>https://berkmonder.github.io/blogs/blog1/</link>
+      <pubDate>Sat, 09 Apr 2022 23:15:00 +0700</pubDate>
+      <guid>https://berkmonder.github.io/blogs/blog1/</guid>
+      <description>Same as the summary</description>
+    </item>
+    <item>
       <title>Blog 2</title>
       <link>https://berkmonder.github.io/blogs/blog2/</link>
       <pubDate>Sat, 09 Apr 2022 23:15:00 +0700</pubDate>
@@ -21,21 +28,21 @@
       <description>Same as the summary</description>
     </item>
     <item>
-      <title>About me</title>
+      <title>About me 🐢</title>
       <link>https://berkmonder.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://berkmonder.github.io/about/</guid>
-      <description>Hi! 👋 I am a data scientist and a hobbyist. I love my work and I try my best to make it.
-Education 🎓 I completed my undergraduate studies in Physics at Istanbul University and am pursuing a Master&amp;rsquo;s degree in the field.
-Work 💼 I am a Machine Learning Engineer at P.I. Works
-Skills 🧰 Python Scikit-learn, Numpy, Pandas, Matplotlib, Seaborn, PyMC, Tensorflow, PyTorch Docker, FastAPI, Jupyter, SQL, Git, Bash Languages 🌍 Turkish 🇹🇷 English 🇺🇸 Projects 🔥 I am currently working on Academic Researcher Agent</description>
+      <description>🤖 I&amp;rsquo;m a Machine Learning Engineer at P.I. Works 💡 I like to explore the inner workings of the Universe and cook delicious cookies 🍪 🎓 I&amp;rsquo;m a Master of Science student in Physics at the Istanbul University 🔭 I&amp;rsquo;m currently working on making a fully autonomus academic researcher LLM agent 🌱 I&amp;rsquo;m on track for learning more about Retrieval-Augmented Generation, and finding simple ML solutions for complex everyday products 💬 Feel free to reach out to me for Data Science Project consulting and volunteering, or just for some interesting discussion about Data Science, ML, AI, and Physics stuff 📫 You can shoot me an email at berkmonder@gmail.</description>
     </item>
     <item>
       <title>Projects</title>
       <link>https://berkmonder.github.io/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://berkmonder.github.io/projects/</guid>
-      <description>Data science projects for academic, self-learning, and hobby</description>
+      <description>My Machine Learning Portfolio 🔥 Projects 🚀 Analysis Keywords: EDA, Pandas, Numpy, Matplotlib, Seaborn
+Exploratory Data Analysis on MTA Turnstile Data: Used Pandas, Matplotlib/Seaborn to clean, transform and visualize data to extract insights. Regression Keywords:
+IMDb Movies Gross Prediction: Used BeautifulSoup to collect and clean job listing data from IMDb.com
+Forcasting Historical Sales Data: This was a case study that I&amp;rsquo;ve worked on that relies solely on previeos sale numbers.</description>
     </item>
   </channel>
 </rss>

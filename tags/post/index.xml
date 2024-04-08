@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tags on Muhammed Berk Önder</title>
-    <link>https://berkmonder.github.io/tags/</link>
-    <description>Recent content in Tags on Muhammed Berk Önder</description>
+    <title>post on Muhammed Berk Önder</title>
+    <link>https://berkmonder.github.io/tags/post/</link>
+    <description>Recent content in post on Muhammed Berk Önder</description>
     <image>
       <title>Muhammed Berk Önder</title>
       <url>https://berkmonder.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
@@ -12,20 +12,13 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 09 Apr 2022 23:15:00 +0700</lastBuildDate>
-    <atom:link href="https://berkmonder.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://berkmonder.github.io/tags/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>blog</title>
-      <link>https://berkmonder.github.io/tags/blog/</link>
+      <title>Blog 1</title>
+      <link>https://berkmonder.github.io/blogs/blog1/</link>
       <pubDate>Sat, 09 Apr 2022 23:15:00 +0700</pubDate>
-      <guid>https://berkmonder.github.io/tags/blog/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>post</title>
-      <link>https://berkmonder.github.io/tags/post/</link>
-      <pubDate>Sat, 09 Apr 2022 23:15:00 +0700</pubDate>
-      <guid>https://berkmonder.github.io/tags/post/</guid>
-      <description></description>
+      <guid>https://berkmonder.github.io/blogs/blog1/</guid>
+      <description>Same as the summary</description>
     </item>
   </channel>
 </rss>
