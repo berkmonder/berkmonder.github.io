@@ -32,15 +32,15 @@
       <link>https://berkmonder.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://berkmonder.github.io/about/</guid>
-      <description>🤖 I&amp;rsquo;m a Machine Learning Engineer at P.I. Works 💡 I like to explore the inner workings of the Universe and cook delicious cookies 🍪 🎓 I&amp;rsquo;m a Master of Science student in Physics at the Istanbul University 🔭 I&amp;rsquo;m currently working on making a fully autonomus academic researcher LLM agent 🌱 I&amp;rsquo;m on track for learning more about Retrieval-Augmented Generation, and finding simple ML solutions for complex everyday products 💬 Feel free to reach out to me for Data Science Project consulting and volunteering, or just for some interesting discussion about Data Science, ML, AI, and Physics stuff 📫 You can shoot me an email at berkmonder@gmail.</description>
+      <description>🤖 I&amp;rsquo;m a Machine Learning Engineer at P.I. Works 💡 I like to explore the inner workings of the Universe and cook delicious cookies 🍪 🎓 I&amp;rsquo;m a Physics Master&amp;rsquo;s student at Istanbul University. 🔭 I&amp;rsquo;m currently developing a totally autonomous academic researcher LLM agent. 🌱 I&amp;rsquo;m on track for learning more about LLMs and Neural Networks in general 💬 Feel free to reach out to me for Data Science Project consulting and volunteering, or just for some interesting discussion about Data Science, ML, AI or general Physics and Science stuff 📫 You can shoot me an email at berkmonder@gmail.</description>
     </item>
     <item>
       <title>Projects</title>
       <link>https://berkmonder.github.io/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://berkmonder.github.io/projects/</guid>
-      <description>My Machine Learning Portfolio 🔥 Projects 🚀 Analysis Keywords: EDA, Pandas, Numpy, Matplotlib, Seaborn
-Exploratory Data Analysis on MTA Turnstile Data: Used Pandas, Matplotlib/Seaborn to clean, transform and visualize data to extract insights. Regression Keywords:
+      <description>My Machine Learning Portfolio 🔥 Projects 🚀 Analysis 📊🔍 Keywords: Pandas, Numpy, Matplotlib, Seaborn
+Exploratory Data Analysis on MTA Turnstile Data: Used Pandas, Matplotlib/Seaborn to clean, transform and visualize data to extract insights. Regression 📈 Keywords: scikit-learn, Linear Regression, Logistic Regression, Beautiful Soup
 IMDb Movies Gross Prediction: Used BeautifulSoup to collect and clean job listing data from IMDb.com
 Forcasting Historical Sales Data: This was a case study that I&amp;rsquo;ve worked on that relies solely on previeos sale numbers.</description>
     </item>
