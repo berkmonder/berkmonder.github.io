@@ -19,7 +19,7 @@ params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: MuhammedBerkÖnder
   description: "This is the website of Muhammed Berk Önder, a data scientist, a learner, and a passionate programmer."
-  keywords: [Blog, Portfolio, Data Science, Machine Learning, AI]
+  keywords: [Data Science, Machine Learning, AI, Blog, Portfolio]
   author: Muhammed Berk Önder
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "2 January 2006"
@@ -59,8 +59,8 @@ params:
   # profile-mode
   profileMode:
     enabled: true # needs to be explicitly set
-    title: "Welcome! \U0001F44B"
-    subtitle: "Welcome to my blog"
+    title: "Selam! \U0001F44B"
+    subtitle: "Welcome to my website"
     imageUrl: "images/brain_colored.gif"
     imageWidth: 120
     imageHeight: 120
@@ -118,14 +118,18 @@ menu:
       name: Blogs
       url: /blogs/
       weight: 1
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 2
     - identifier: tags
       name: Tags
       url: /tags/
-      weight: 2
+      weight: 3
     - identifier: projects
       name: Projects
       url: /projects/
-      weight: 3
+      weight: 4
     - identifier: about
       name: About
       url: /about/
