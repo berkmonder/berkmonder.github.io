@@ -39,10 +39,8 @@
       <link>https://berkmonder.github.io/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://berkmonder.github.io/projects/</guid>
-      <description>My Machine Learning Portfolio 🔥 Projects 🚀 Analysis 📊🔍 Keywords: Pandas, Numpy, Matplotlib, Seaborn
-Exploratory Data Analysis on MTA Turnstile Data: Used Pandas, Matplotlib/Seaborn to clean, transform and visualize data to extract insights. Regression 📈 Keywords: scikit-learn, Linear Regression, Logistic Regression, Beautiful Soup
-IMDb Movies Gross Prediction: Used BeautifulSoup to collect and clean job listing data from IMDb.com
-Forcasting Historical Sales Data: This was a case study that I&amp;rsquo;ve worked on that relies solely on previeos sale numbers.</description>
+      <description>My Machine Learning Portfolio 🔥 Projects 🚀 Types of Machine Learning
+Supervised Learning 📈 🍎🍏 Image classification: Identify objects, faces, and other features in images. Natural language processing: Extract information from text, such as sentiment, entities, and relationships. Speech recognition: Convert spoken language into text. Recommendation systems: Make personalized recommendations to users. Predictive analytics: Predict outcomes, such as sales, customer churn, and stock prices. Medical diagnosis: Detect diseases and other medical conditions.</description>
     </item>
   </channel>
 </rss>
