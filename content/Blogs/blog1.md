@@ -15,6 +15,6 @@ draft: true
 tags: ["blog", "post"]
 ---
 
-# Hello world
+# Test blog
 
-Lorem ipsum dolor sit amet 
+Wow this is cool
