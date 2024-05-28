@@ -20,12 +20,5 @@
       <guid>https://berkmonder.github.io/blogs/blog1/</guid>
       <description>Same as the summary</description>
     </item>
-    <item>
-      <title>Blog 2</title>
-      <link>https://berkmonder.github.io/blogs/blog2/</link>
-      <pubDate>Sat, 09 Apr 2022 23:15:00 +0700</pubDate>
-      <guid>https://berkmonder.github.io/blogs/blog2/</guid>
-      <description>Same as the summary</description>
-    </item>
   </channel>
 </rss>
