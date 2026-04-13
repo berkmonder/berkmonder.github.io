@@ -1,0 +1,21 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const posts = [
+  { title: "Attention!", date: "2025-05-22", url: "/blog/attention", desc: "wth?" },
+];
+---
+
+<Layout title="./blog">
+  <h1>./blog | muhammed berk önder</h1>
+  
+  <ul class="post-list">
+    {posts.map(post => (
+      <li>
+        <a href={post.url}>{post.title}</a>
+        <span class="date">{post.date}</span>
+        <div>{post.desc}</div>
+      </li>
+    ))}
+  </ul>
+</Layout>
