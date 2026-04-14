@@ -2,12 +2,14 @@
 import Layout from '../layouts/Layout.astro';
 
 const posts = [
-  { title: "Attention!", date: "2025-05-22", url: "/blog/attention", desc: "wth?" },
+  { title: "Attention!", date: "2025-05-22", url: "/blog/attention", desc: "Test blog." },
 ];
 ---
 
 <Layout title="./blog">
-  <h1>./blog | muhammed berk önder</h1>
+  <h1>
+    <span id="typewriter" data-text="./blog"></span><span class="cursor">█</span> muhammed berk önder
+  </h1>
   
   <ul class="post-list">
     {posts.map(post => (

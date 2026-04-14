@@ -6,22 +6,24 @@ const { title } = Astro.props;
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <title>{title} | muhammed berk önder</title>
+    <title>{title} | muhammed berk onder</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsEw09800kqc/qfdOUk14q0EWeK1t/70kLdEUT12L4sA92Hh1O6kK2A58Y" crossorigin="anonymous">
+    
     <style is:global>
       :root {
         --bg: #fff;
         --text: #111;
-        --link: #0000ee;
-        --link-hover: #551a8b;
+        --muted: #888;
       }
       @media (prefers-color-scheme: dark) {
         :root {
           --bg: #121212;
           --text: #e0e0e0;
-          --link: #8ab4f8;
-          --link-hover: #c58af9;
+          --muted: #888;
         }
       }
+
       body {
         font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
         background-color: var(--bg);
@@ -32,33 +34,70 @@ const { title } = Astro.props;
         line-height: 1.6;
         font-size: 15px;
       }
+
       h1, h2, h3 {
         font-weight: normal;
         margin-top: 2em;
       }
+
+      /* Force ALL links to use your text color, overriding browser defaults */
       a {
-        color: var(--link);
-        text-decoration: none;
-      }
-      a:hover {
+        color: var(--text); 
         text-decoration: underline;
-        color: var(--link-hover);
+        text-decoration-color: var(--muted); 
+        text-underline-offset: 3px; 
+        transition: text-decoration-color 0.2s ease;
       }
+      
+      a:hover {
+        text-decoration-color: var(--text); 
+      }
+
+      /* Navigation styling */
       nav {
         margin-bottom: 2rem;
         display: flex;
-        gap: 1rem;
+        gap: 1.5rem;
+        font-size: 1.8em;
       }
+
+      nav a {
+        text-decoration: none;
+      }
+      
+      nav a:hover {
+        text-decoration: underline;
+        text-decoration-color: var(--text);
+      }
+
+      /* Lists and Dates */
       .post-list {
         list-style: none;
         padding: 0;
       }
+      
       .post-list li {
         margin-bottom: 1rem;
       }
+      
       .date {
-        color: #888;
+        color: var(--muted);
         margin-right: 0.5rem;
+      }
+
+      /* Cursor with alignment fix */
+      .cursor {
+        color: var(--text); 
+        animation: smoothBlink 0.6s ease-in-out infinite;
+        margin-left: 4px;
+        font-size: 0.85em;
+        display: inline-block;
+        transform: translateY(-5px); /* Shifted higher up the Y-axis */
+      }
+
+      @keyframes smoothBlink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
       }
     </style>
   </head>
@@ -71,5 +110,24 @@ const { title } = Astro.props;
     <main>
       <slot />
     </main>
+
+    <script>
+      const targetSpan = document.getElementById("typewriter");
+      
+      if (targetSpan) {
+        const textToType = targetSpan.getAttribute("data-text");
+        let index = 0;
+
+        function typeWriter() {
+          if (index < textToType.length) {
+            targetSpan.textContent += textToType.charAt(index);
+            index++;
+            setTimeout(typeWriter, 60);
+          }
+        }
+        
+        typeWriter();
+      }
+    </script>
   </body>
 </html>
